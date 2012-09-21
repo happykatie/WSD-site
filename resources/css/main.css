@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align : center;
+}
+
+p strong {
+	color: #e9671f; 
+}
+
+#header {
+	overflow: hidden;
+	height: 75px;
+	background: #524f26;
+}
+
+#logo {
+	float: left;
+	width: 395px;
+	height: 75px;
+}
+
+#title {
+	float: right;
+	width: 225px;
+	height: 75px;
+}
+
+#container{
+	margin-left: auto; 
+	margin-right: auto; 
+	width: auto;
+	height: auto;
+}
+
+#flash_content {
+	margin-top: 20px;
+}
+
+#information{
+	margin-top: 20px;
+	text-align: center;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
