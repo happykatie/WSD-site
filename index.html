@@ -1,63 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Butler Oaks Farm</title>
-	<body>
-	<!-- Branding and Logo -->
-		<header>
-	
-			<h1>Butler Oaks Farm<a href="index.html"><img src="images/bof-logo.jpg" width="191" height="131" alt="Butler Oaks Farm" title="Butler Oaks Farm"></a></h1>
-			
-			<!-- Main Site Navigation -->
-			<nav>
-				<ul>
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#gallery">GALLERY</a></li>
-					<li><a href="#visit">VISIT US</a></li>
-				</ul>
-			</nav>
-	
-		</header>
-		
-			<div>
-				<h2 id="about">Meet Your Local Dairy Farmers</h2>
-	
-				<p>As a multigenerational Florida dairy farming family, our mission is to produce <strong>superior quality, wholesome, farm-fresh dairy products from healthy cows</strong>. We are committed to using environmentally sustainable practices and state-of-the- art methods. <span>We are also committed to promoting the education of the public</span> about dairy farming and the nutritional benefits of "natures perfect food" - MILK!</p>
-			</div>
-			
-			<section>
-			
-				<h2 id="gallery">Gallery</h2>
-	
-				<ul>
-					<li><img src="images/bobbutler100.jpg" width="100" height="100" alt="Bob Butler" title="Bob Butler"></li>
-					<li><img src="images/bof-tractor100.jpg" width="100" height="100" alt="Feeding Time" title="Feeding Time"></li>
-					<li><img src="images/bof-cows100.jpg" width="100" height="100" alt="Happy Cows" title="Happy Cows"></li>
-				</ul>
-			
-			</section>
-			
-			<section>
-			
-				<h2 id="visit">Visit Our Farm!</h2>
-	
-				<p>Our family has been milking cows in Highlands County, Florida since 1973. Butler Oaks Farm is amongst the fewer than 150 dairies remaining in Florida. We are committed to educating the public about dairy farming and the nutritional benefits of milk. Our Farm Tours offer a unique experience and create memories that will last a lifetime.</p>
-				
-				<h3>On Our Tour You Will:</h3>
-				
-				<ol>
-					<li>Learn"Where Milk Comes From"</li>
-					<li>Learn the benefits of a FRESH GRASS diet</li>
-					<li>Learn how we practice sustainable farming</li>
-					<li>"Taste the Difference" of truly fresh milk</li>
-					<li>Take a hayride and conclude with bottle feeding a calf</li>
-				</ol>
-				
-			</section>
-			
-			<footer>
-				<p>&copy; 2012, Butler Oaks Farm</p>
-			</footer>
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Flash Design &amp; Animation</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css" />
+    <script type="text/javascript" src="resources/js/swfobject.js"></script>
+</head>
+
+<body >
+	<div id="header">
+       	<div id="logo"><img src="resources/images/logo_fullSail.jpg" width="395" height="75" alt="Full Sail University Logo" /></div>
+		<div id="title"><img src="resources/images/logo_fda.jpg" width="225" height="75" alt="Flash Design &amp; Animation" /></div>
+	</div> <!--header-->
+    <div id="container">
+	<div id="flash_content">
+		<script type="text/javascript">
+			<!-- Change the dimensions of the SWF using the width and height variables below -->
+			var width = 800;
+			var height = 400;
+			var flashvars = {};
+			var params = {};
+			var attributes = {};
+			attributes.id = "flash_content";
+			swfobject.embedSWF("resources/flash/assignment.swf", "myAlternativeContent", width, height, "9.0.0", false, flashvars, params, attributes);
+		</script>
+		<div id="myAlternativeContent">
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		</div>
+	</div><!--flash_content-->
+	<div id="information">
+		<p><strong>Katie Roberts</strong></p>
+		<p><strong>Assignment 3: Game Engine</strong><br /></p>
+		<p>Game Animation Updates:<br /></p>
+			<ol>
+				<li>Adjusted the explosion so that the enemy character no longer falls off the stage. Instead, the enemy now rotates and fades away, and fits better with the game engine.</li>
+				<li>Adjusted appropriate movie clips to remove user generated tweens from the library and reduce file size.</li>
+			</ol>
+	</div><!--information-->
+    </div><!--container-->
+</body>
 </html>
